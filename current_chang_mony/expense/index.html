@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Expense</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container-box">
+        <h2>Program receipts-payments</h2>
+        <div class="container">
+            <h4>balance (฿)</h4>
+            <h1 id="balance">฿0.00</h1>
+
+            <div class="income-expense-container">
+                <div>
+                    <h4>revenue</h4>
+                    <p id="money-plus" class="money plus">฿5000</p>
+                </div>
+
+                <div>
+                    <h4>expenses</h4>
+                    <p id="money-minus" class="money minus">฿200</p>
+                </div>
+            </div>
+
+            <h3>Transaction history</h3>
+
+            <ul id="list" class="list">
+                <!-- <li class="minus">
+                                                Car repair consts<span>-฿400</span>
+                                                <button class="delete-btn">X</button>
+                                            </li>
+                                            
+                                            <li class="plus">
+                                                pecify the amount<span>฿40000</span>
+                                                <button class="delete-btn">X</button>
+                                            </li> -->
+            </ul>
+
+            <h3>Add a transaction</h3>
+
+            <form id="form">
+                <div class="form-control">
+                    <label for="amount">list Name</label>
+                    <input type="text" name="" id="text" placeholder="Specify items" />
+                </div>
+                <div class="form-control">
+                    <label for="amount">Specify the amount <br />
+                        (+revenue,-expenses)
+                    </label>
+                    <input type="number" name="" id="amount" placeholder="Specify the amount" />
+                </div>
+                <button class="btn">pecify the amount</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
